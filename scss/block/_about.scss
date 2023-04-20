@@ -1,0 +1,113 @@
+.about-clinic{
+    
+    background-image: url(../images/animals.png),url(../images/parrot.png);
+ background-position: 0 -102px ,right 380px;
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ 
+ 
+ }
+ 
+ .about-clinic-top{
+     padding-top: 153px;
+ width: 608px;
+ margin-left: auto;
+ }
+ .title-bold--about{
+     font-size: 70px;
+     line-height: 64px;
+     margin: 0;
+ }
+ .about-clinic-information .title-bold--aboutcyan{
+ color: #78C0DE;
+ }
+ .text{
+     width: 495px;
+     margin-top: 29px;
+     margin-bottom: 54px;
+  font-size: 16px;
+  line-height: 21px;
+ }
+ .btn{
+     
+ padding: 16px 48px;
+ background-color:var(--color-primary);
+ border-radius: 3px;
+ text-decoration: none;
+ color: var(--color-white);
+ }
+ .btn:hover{
+     background:var(--color-secondary);
+ border-radius: 3px;
+ color: var(--color-primary);
+ transition: all .4s;
+ }
+ .btn:active{
+     background: var(--color-secondary);
+ border-radius: 3px;
+ color: var(--color-primary);
+ transition: all .3s;
+ opacity: .6;
+ }
+ /*************************************
+ ********* A B O U T ******************
+ *************************************/
+ .about-clinic-bottom{
+     margin-top: 290px;
+     width: 1134px;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     text-align: center;
+ }
+ 
+ .line{
+    margin-top: 21px;
+     width: 140px;
+     height: 1px;
+     background-color: #DBDBDB;
+     margin-left: auto;
+     margin-right: auto;
+   
+ }
+ .text--tirnoq{
+     margin-top: 43px;
+     width: 753px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 20px;
+     
+     
+ 
+ }
+ .about-clinic-bottom::before{
+     content: '';
+     background-image: url(../images/tirnoq-left.svg);
+     display: inline-block;
+     width: 50px;
+     height: 42px;
+     position: absolute;
+     top: 10px;
+     left: 92px;
+     
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ .about-clinic-bottom::after{
+     content: '';
+     background-image: url(../images/tirnoq-right.svg);
+     display: inline-block;
+     width: 50px;
+     height: 42px;
+     position: absolute;
+     top: 75px;
+     right: 98px;
+ 
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ .line--2{
+     margin: 35px 0;
+     margin-left: auto;
+     margin-right: auto;
+ }

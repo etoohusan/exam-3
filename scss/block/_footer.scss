@@ -1,0 +1,327 @@
+.following{
+    background-image: url(../images/blue-bgi.png);
+    width: 100%;
+    height: 308px;
+    padding: 90px;
+    margin-top: 235px;
+    position: relative;
+}
+.title-bold--white{
+    color: var(--color-white);
+    font-size: 48px;
+    line-height: 20px;
+    margin-bottom: 46px;
+}
+.btn--following{
+    padding: 15px 53px 14px 51px;
+    font-size: 16px;
+     line-height: 20px;
+     border:none;
+}
+.input__email{
+    width: 335px;
+    height: 50px;
+    padding: 18px 0 12px 22px;
+    margin-right: 21px;
+    border-radius: 5px;
+    background-color: var(--color-white);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+.input__email::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-text);
+}
+.input__email:focus{
+    border: 2px solid var(--color-secondary);
+}
+.input__email:invalid{
+    border: 2px solid #DC4D41;
+    color: #DC4D41;
+}
+.dog{
+    position:absolute;
+    top: -108px;
+    right: 60px;
+}
+
+.title-bold--usefultop{
+    font-size: 48px;
+    line-height: 20px;
+    margin-top: 216px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.useful-content{
+display: flex;
+justify-content: space-between;
+}
+
+.useful-card{
+background-color: var(--color-white);
+height: 435px;
+border-radius: 5px;
+}
+.useful-card:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all.3s;
+}
+.pet-btn:hover{
+    color:  var(--color-secondary);
+    transition:all .3s;
+}
+.pet-btn:active{
+    color: var(--color-primary);
+    opacity: .7;
+    transition:all .3s;
+}
+.useful-card--litle{
+width: 305px;
+border: 1px solid var(--color-white);
+
+}
+.useful-card-information{
+    padding: 20px 22px 36px 22px;
+}
+.useful-card--large{
+width: 640px;
+display: flex;
+border: 1px solid #F3F3F3;
+}
+.useful-card-informationl{
+padding: 41px 34px 38px 30px;
+width: 335px;
+}
+.list-nav{
+    display: flex;
+    margin-bottom: 29px;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+.list__item{
+margin-right: 7px;
+}
+.list__link{
+    font-family: 'Futura PT';
+text-decoration: none;
+font-weight: 400;
+color: #3D9CEA;
+}
+.text--sana{
+    font-size: 14px;
+    line-height: 18px;
+text-align: right;
+margin: 0;
+width: 100%;
+}
+.title-bold--useful{
+font-size: 22px;
+line-height: 25px;
+margin-top: 2px;
+}
+.text--useful{
+width: 100%;
+font-size: 16px;
+line-height: 20px;
+
+}
+.text--useful1{
+    margin-top: 10px;
+margin-bottom: 38px;
+}
+.text--useful2{
+    margin-top: 15px;
+margin-bottom: 37px;
+}
+.text--useful3{
+    margin-top: 13px;
+margin-bottom: 32px;
+}
+.useful-card--cat::before{
+    content: '';
+    background-image: url(../images/cat.png);
+    display: inline-block;
+    width: 305px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.useful-card--large::before{
+    content: '';
+    background-image: url(../images/dogs.png);
+    display: inline-block;
+    width: 305px;
+    height: 435px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.useful-card--dog::before{
+    content: '';
+    background-image: url(../images/dog.png);
+    display: inline-block;
+    width: 305px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.feedback{
+    display: flex;
+    margin-top: 265px;
+}
+.feedback__iframe{
+    flex-basis: 462px;
+}
+.feedback-right{
+   flex-grow: 1;
+    padding: 62px 0px 74px 166px;
+background-color: #000;
+background-image: url(../images/feedback-bgi.png);
+background-size: contain ;
+background-repeat: no-repeat;
+
+}
+.title-bold--feedback{
+color: var(--color-white);
+font-size: 48px;
+line-height: 61.24px;
+}
+.text--feedback{
+font-size: 16px;
+line-height: 20px;
+margin-top: 14px;
+margin-bottom: 29px;
+}
+.input__feedback,.textarea__feedback{
+    display: block;
+    margin-bottom: 14px;
+    padding: 16px 0 13px 22px;
+    width: 375px;
+    border: none;
+    outline: none;
+    border: 2px solid transparent;
+
+}
+
+.input__feedback:focus:invalid,.textarea__feedback:focus:invalid{
+    color: red;
+    border: 2px solid red;
+}
+.input__feedback:focus:valid,.textarea__feedback:focus:valid{
+    color: #f1c40f;
+    border: 2px solid#f1c40f;
+}
+.textarea__feedback{
+height: 165px;
+resize: none;
+}
+.input__feedback::placeholder{
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-text);
+}
+
+
+.btn--feedback{
+    margin-top: 16px;
+    padding: 15px 49px;
+    background-color: var(--color-secondary);
+    border: none;
+}
+.btn--feedback:hover{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+.footer{
+padding: 54px 65px 23px 65px;
+background-color: #F3F3F3;
+margin-top: 247px;
+}
+.footer-content{
+display: flex;
+align-items: flex-start;
+justify-content: flex-end;
+}
+.footer__logo{
+    margin-right: 67px;
+}
+
+.footer__list,.footer-nav{
+list-style: none;
+}
+.footer__item:not(:last-child){
+    margin-bottom: 14px;
+
+}
+.footer__item--phone::before{
+    content: '';
+    background-image: url(../images/phone.svg);
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 9px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-nav__link,.footer__link{
+text-decoration: none;
+font-size: 16px;
+line-height: 21px;
+color: var(--color-primary);
+}
+.footer-nav__link:hover{
+    color: var(--color-secondary);
+    transition: all .3s;
+}
+.footer-nav__link:active{
+    color: var(--color-primary);
+    opacity: .7;
+    transition: all .3s;
+}
+
+.footer__address{
+    margin: 0;
+    width: 157px;
+    text-align: right;
+   
+}
+.footer__address--icon::before{
+    content: '';
+    background-image: url(../images/house.svg);
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin-right: 9px;
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer-nav--1{
+margin-right: 87px;
+}
+.footer-nav--2{
+margin-right: 127px;
+}
+.footer__list--data{
+margin-right: 112px;
+text-align: right;
+
+}
+.footer__list--kalendar::before{
+    content: '';
+    background-image: url(../images/kalendar.svg);
+    display: inline-block;
+    width: 14px;
+    height: 14px;  
+    margin-right: 9px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.footer__list--numbers{
+margin-left: 87px;
+text-align: right;
+}

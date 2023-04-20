@@ -1,0 +1,27 @@
+:root{
+  --color-primary:#333333;
+  --color-text:#949494;
+  --color-secondary: #FFBD54;
+  --color-white:#fff;
+}
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+ font-family:'Futura PT',sans-serif;
+ font-weight: 500;
+ color: #333333;
+ background-color: #E5E5E5;
+ background-image: url(../images/bg@2x.png);
+ z-index: 10;
+}
+.container{
+  max-width: 1340px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
